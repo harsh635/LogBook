@@ -1,5 +1,4 @@
  LogBook
-online-exam-portal
 
 ## Available Scripts
 
