@@ -1,0 +1,47 @@
+.register{
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255,255,255,0.5)),
+    url(C:\Users\LENOVO\Desktop\blogger\my-app\src\pages\pexels-tirachard-kumtanom-733857.jpg);
+    background-size: cover;
+}
+.rTitle{
+    font-size: 50px;
+}
+.RegisterForm{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.RegisterForm > label{
+    margin: 10px 0;
+}
+.RegisterForm > input{
+    padding: 10px;
+    background-color: white;
+    border: none;
+}
+.RButton{
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: teal;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+.lgButton{
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background-color: lightcoral;
+    cursor: pointer;
+    border: none;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+}
+

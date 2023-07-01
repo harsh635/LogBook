@@ -1,0 +1,50 @@
+.login{
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255,255,255,0.5)),
+    url(C:\Users\LENOVO\Desktop\blogger\my-app\src\pages\pexels-tirachard-kumtanom-733857.jpg);
+    background-size: cover;
+}
+.lTitle{
+    font-size: 50px;
+}
+.loginForm{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.loginForm > label{
+    margin: 10px 0;
+}
+.loginForm > input{
+    padding: 10px;
+    background-color: white;
+    border: none;
+}
+.loginB{
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: lightcoral;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+.loginB:disabled{
+    cursor: not-allowed;
+    background-color: rgb(252,173,173);
+}
+.RegisterB{
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background-color: teal;
+    cursor: pointer;
+    border: none;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+}
